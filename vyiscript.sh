@@ -125,7 +125,7 @@ rpcpassword=$RPCPASSWORD
 rpcallowip=127.0.0.1
 rpcport=$RPC_PORT
 port=$COIN_PORT
-listen=1
+listen=0
 server=1
 daemon=1
 EOF
