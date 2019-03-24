@@ -1,16 +1,16 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='vyigrat.conf'
-CONFIGFOLDER='/root/.vyigrat'
-COIN_DAEMON='vyigratd'
-COIN_CLI='vyigrat-cli'
+CONFIG_FILE='worx.conf'
+CONFIGFOLDER='/root/.worx'
+COIN_DAEMON='worxd'
+COIN_CLI='worx-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='http://vyigrat.com/vyigrat_ubuntu.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='vyigrat'
-COIN_PORT=12698
-RPC_PORT=12699
+COIN_NAME='worx'
+COIN_PORT=3300
+RPC_PORT=31313
 CHAIN_LINK='http://vyigrat.com/vyi_temp.zip'
 CHAIN='vyi_temp.zip'
 
